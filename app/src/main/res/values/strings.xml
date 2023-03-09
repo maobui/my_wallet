@@ -23,4 +23,6 @@
     <string name="google_pay_status_checking" translatable="false">Checking if Google Pay is available...</string>
     <string name="payments_show_name" translatable="false">Successfully received payment data for %s!</string>
     <string name="add_google_wallet_success" translatable="false">The pass was added successfully!</string>
+    <string name="servicedesc" translatable="false">Service Description</string>
+    <string name="aiddescription" translatable="false">AID Description!</string>
 </resources>

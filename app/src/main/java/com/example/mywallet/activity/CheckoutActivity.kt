@@ -17,6 +17,7 @@
 package com.example.mywallet.activity
 
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -109,5 +110,9 @@ class CheckoutActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    fun isSupportHce(): Boolean {
+        return packageManager.hasSystemFeature(PackageManager.FEATURE_NFC_HOST_CARD_EMULATION)
     }
 }
